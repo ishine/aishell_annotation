@@ -1,0 +1,73 @@
+{
+  "name": "data-annotation",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel-eslint": "^10.0.3",
+    "core-js": "^3.4.5",
+    "countup": "^1.8.2",
+    "echarts": "^4.2.0-rc.2",
+    "eslint": "^6.7.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "gdbox": "^1.0.8",
+    "js-cookie": "^2.2.0",
+    "localforage": "^1.7.3",
+    "moment": "^2.24.0",
+    "view-design": "^4.0.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vue-waves": "^0.1.1",
+    "vuex": "^3.0.1",
+    "wavesurfer.js": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-eslint": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
+    "iview-loader": "^1.2.2",
+    "less": "^3.8.1",
+    "less-loader": "^5.0.0",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-cli-plugin-iview": "^2.0.0",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.41.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/no-unused-vars": "off",
+      "vue/no-parsing-error": "off",
+      "vue/no-unused-components": "off",
+      "vue/valid-template-root":"off",
+      "no-unused-vars":"off",
+      "no-undef":"off",
+      "no-empty":"off"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
