@@ -1,3 +1,7 @@
-/WebApp/node_modules
-/WebApp/yarn-error.log
-/WebApp/yarn.lock
+/AIShellAn.Webapp/node_modules
+/AIShellAn.Webapp/yarn.lock
+/AIShellAn.Webapp/package-lock.json
+/AIShellAn.Server/AIShellAn.Server/obj
+/AIShellAn.Server/AIShellAn.Server/bin
+/AIShellAn.Server/AIShellAn.Server/AIShellAn.Server.csproj.user
+/AIShellAn.Server/.vs
