@@ -2,7 +2,7 @@
 
 #关于AIShell
 
-balabala。。。
+
 
 
 ## 项目简介
@@ -13,13 +13,13 @@ balabala。。。
 
 ## 为什么开源
 
-为什么,balabala...
+
 
 ## 文档(Document)
 
-* [开发环境和工具](https://codedefault.com/p/environment-and-developement-tools)
-* [下载项目&安装依赖](https://codedefault.com/p/download-and-restore-dnczeus)
-* [前后端分离项目打包/发布/部署及注意事项](https://codedefault.com/p/dnczeus-build-and-deploy)
+* [开发环境和工具]
+* [下载项目&安装依赖]
+* [前后端分离项目打包/发布/部署及注意事项]
 
 ## 在线体验(Demo)
 
@@ -48,7 +48,7 @@ AIShellAnnotation已经包含语音标注以及基础的图像标注功能，适
 
 - [ASP.NET Core 官方文档][2]
 - [Vue.js 官方文档][3]
-- [iView 官方文档][3]
+- [iView 官方文档]
 
 ## 环境和工具
 
@@ -91,7 +91,7 @@ npm install (建议使用yarn替代npm,使用yarn需要额外安装)
 
 ```
 "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=DncZeus;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AIShellAn;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 ```
 
@@ -110,11 +110,11 @@ Update-Database -verbose
 
 ## 运行
 
-1. 使用Visual Studio开发工具打开DncZeus根目录中的VS解决方案文件[DncZeus.sln](或者你喜欢的话，使用VS Code来进行ASP.NET Core的开发也是可以的)，设置DncZeus.Api项目为默认启动项并运行此项目。
+1. 使用Visual Studio开发工具打开AIShellAn根目录中的VS解决方案文件[AIShellAn.Server.sln](或者你喜欢的话，使用VS Code来进行ASP.NET Core的开发也是可以的)，设置AIShellAn.Server项目为默认启动项并运行此项目。
 
 > 这时在浏览器中打开地址：http://localhost:54321/swagger ，便可以查看到DncZeus已经实现的后端API接口服务了。
 
-2. 在命令行中进入到DncZeus的前端项目目录[DncZeus.App]，运行如下命令以启动前端项目服务：
+2. 在命令行中进入到前端项目目录，运行如下命令以启动前端项目服务：
 
 ```
 npm run dev
@@ -151,9 +151,4 @@ AIShellAnnotation项目是一个开源项目，你可以直接基于本项目进
 [1]: https://github.com/iview/iview-admin
 [2]: https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-2.2
 [3]: https://vuejs.org/
-[4]: https://github.com/lampo1024/DncZeus
-[5]: https://statics.codedefault.com/uploads/2018/12/1.png
-[6]: https://statics.codedefault.com/uploads/2018/12/2.png
-[7]: https://dnczeus.codedefault.com
-[8]: https://codedefault.com
-[9]: https://gitee.com/rector/DncZeus
+
